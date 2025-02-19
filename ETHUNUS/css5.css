@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c4c42d;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 20px auto;
+    background-color: #c4c42d;
+    padding: 20px;
+    border: 1px dotted black;
+}
+
+.sidebar {
+    width: 200px;
+    float: left;
+    margin-right: 20px;
+}
+
+.sidebar a {
+    display: block;
+    width: 150px;
+    padding: 5px;
+    background-color: white;
+    color: blue;
+    text-decoration: none;
+    margin-bottom: 5px;
+    border-left: 20px solid black;
+}
+
+.sidebar a:hover {
+    background-color: #ddd;
+}
+
+.main-content {
+    overflow: hidden;
+}
+
+h1 {
+    color: purple;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+}
+
+hr {
+    border: 1px dotted black;
+    width: 100%;
+}
