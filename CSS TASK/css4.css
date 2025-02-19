@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.sidenav {
+    height: 100vh;
+    width: 60px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: #fff;
+    padding-top: 20px;
+}
+
+.sidenav a {
+    display: block;
+    padding: 15px;
+    width: 60px;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    transition: width 0.3s ease-in-out;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.sidenav a.green { background-color: green; }
+.sidenav a.blue { background-color: blue; }
+.sidenav a.red { background-color: red; }
+.sidenav a.gray { background-color: gray; }
+
+.sidenav a:hover {
+    width: 180px;
+}
+
+.main {
+    margin-left: 80px;
+    padding: 20px;
+}
